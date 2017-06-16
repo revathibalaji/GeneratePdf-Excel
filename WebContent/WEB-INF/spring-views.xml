@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+ 	<!-- for generate pdf --> 
+	<bean id="pdf"
+	   	class="sample.controller.PdfView">
+	</bean>
+	
+	<!-- for generate excel --> 
+	<bean id="excel"
+	   	class="sample.controller.ExcelView">
+	</bean>
+ 
+</beans>
